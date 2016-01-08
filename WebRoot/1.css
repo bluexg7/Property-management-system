@@ -1,0 +1,123 @@
+@CHARSET "UTF-8";
+
+<!---------------------------CSS样式------------------------------>
+<style type="text/css">	
+
+body {
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+}
+.STYLE1 {
+	font-size: 12px
+}
+.STYLE3 {
+	font-size: 12px;
+	font-weight: bold;
+}
+.STYLE4 {
+	color: #03515d;
+	font-size: 12px;
+}
+.close {
+	width: 50px;
+	height: 30px;
+	
+	border-radius: 5px;
+	line-height: 30px;
+	position: absolute;
+
+	margin-left: -8px;
+	margin-top: -15px;
+}
+.close:hover {
+	background: #008000;
+	color: #FFFFFF;
+}
+
+.beautywords {
+	font-size: 40px;
+	font-family: 方正姚体;
+	color: blue;
+}
+
+table.gridtable {
+	margin: auto;
+	font-family: verdana, arial, sans-serif;
+	font-size: 15px;
+	color: #333333;
+	border-color: #999999;
+	border-collapse: collapse;
+}
+table.gridtable td {
+	background: #b5cfd2 url('tab/images/tab_05.gif');
+	border-width: 1px;
+	border: 1px;
+	padding: 3px;
+	border-style: solid;
+	border-color: #999999;
+}
+table.gridtable td.tdbtn input {
+	color: #d9eef7;
+	border: solid 1px #0076a3;
+	background: #0095cd;
+	background: -webkit-gradient(linear, left top, left bottom, from(#00adee),
+		to(#0078a5) );
+	background: -moz-linear-gradient(top, #00adee, #0078a5);
+	filter: progid :   DXImageTransform.Microsoft.gradient (   startColorstr
+		= 
+		 '#00adee', endColorstr =   '#0078a5' );
+}
+table.gridtable td.tdbtn input:hover {
+	background: #007ead;
+	background: -webkit-gradient(linear, left top, left bottom, from(#0095cc),
+		to(#00678e) );
+	background: -moz-linear-gradient(top, #0095cc, #00678e);
+	filter: progid :   DXImageTransform.Microsoft.gradient (   startColorstr
+		= 
+		 '#0095cc', endColorstr =   '#00678e' );
+}
+table.gridtable td.tdbtn input:active {
+	color: #80bed6;
+	background: -webkit-gradient(linear, left top, left bottom, from(#0078a5),
+		to(#00adee) );
+	background: -moz-linear-gradient(top, #0078a5, #00adee);
+	filter: progid :   DXImageTransform.Microsoft.gradient (   startColorstr
+		= 
+		 '#0078a5', endColorstr =   '#00adee' );
+}
+table.gridtable select {
+	WIDTH: 150px； position :   relative;
+	left: -2px;
+	top: -2px;
+	font-size: 12px;
+	line-height: 14px;
+	border: 1px;
+	color: #909993;
+}
+table.gridtable input[type=text] {
+	border: 2px solid #F4F5F3;
+	width: 150px;
+	font-size: 16px;
+	font-weight: bold;
+	left: -2px;
+	top: -2px;
+	line-height: 14px;
+	height: 14px;
+}
+.box1 {
+	background:url('tab/images/tab_05.gif');
+	height: 20px;
+}
+
+.optbtn {
+	background-color: transparent; /* 背景色透明 */
+	border: 0px; /* 边框取消 */
+	border-bottom: 1px solid #005aa7; /* 下划线效果 */
+}
+::-moz-focus-inner {
+	border: 0px;
+}
+
+</style>

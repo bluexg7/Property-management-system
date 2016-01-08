@@ -1,0 +1,1379 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="2.5" 
+	xmlns="http://java.sun.com/xml/ns/javaee" 
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee 
+	http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd">
+
+
+
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Login</servlet-name>
+    <servlet-class>com.neu.service.Login</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Building1_Select</servlet-name>
+    <servlet-class>com.neu.service.building.Building1_Select</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Building1_delete</servlet-name>
+    <servlet-class>com.neu.service.building.Building1_Delete</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Building1</servlet-name>
+    <servlet-class>com.neu.service.building.Building1</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Building1_Update</servlet-name>
+    <servlet-class>com.neu.service.building.Building1_Update</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Building1_Insert</servlet-name>
+    <servlet-class>com.neu.service.building.Building1_Insert</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Building2</servlet-name>
+    <servlet-class>com.neu.service.building.Building2</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Building2_Select</servlet-name>
+    <servlet-class>com.neu.service.building.Building2_Select</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Building3</servlet-name>
+    <servlet-class>com.neu.service.building.Building3</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Building3_Select</servlet-name>
+    <servlet-class>com.neu.service.building.Building3_Select</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Building4</servlet-name>
+    <servlet-class>com.neu.service.building.Building4</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Building4_Select</servlet-name>
+    <servlet-class>com.neu.service.building.Building4_Select</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Building5</servlet-name>
+    <servlet-class>com.neu.service.building.Building5</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Building5_Select</servlet-name>
+    <servlet-class>com.neu.service.building.Building5_Select</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Building2_Update</servlet-name>
+    <servlet-class>com.neu.service.building.Building2_Update</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Building2_Delete</servlet-name>
+    <servlet-class>com.neu.service.building.Building2_Delete</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Building2_Insert</servlet-name>
+    <servlet-class>com.neu.service.building.Building2_Insert</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>selectChange1</servlet-name>
+    <servlet-class>selectChange1</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>selectChange2</servlet-name>
+    <servlet-class>selectChange2</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>selectChange3</servlet-name>
+    <servlet-class>selectChange3</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>selectChange4</servlet-name>
+    <servlet-class>selectChange4</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Building3_Delete</servlet-name>
+    <servlet-class>com.neu.service.building.Building3_Delete</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Building3_Insert</servlet-name>
+    <servlet-class>com.neu.service.building.Building3_Insert</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Building5_ShowInfo</servlet-name>
+    <servlet-class>com.neu.service.building.Building5_ShowInfo</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Charge1</servlet-name>
+    <servlet-class>com.neu.service.charge.Charge1</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Charge1_Delete</servlet-name>
+    <servlet-class>com.neu.service.charge.Charge1_Delete</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Charge1_Insert</servlet-name>
+    <servlet-class>com.neu.service.charge.Charge1_Insert</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Charge1_Select</servlet-name>
+    <servlet-class>com.neu.service.charge.Charge1_Select</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Charge1_Update</servlet-name>
+    <servlet-class>com.neu.service.charge.Charge1_Update</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Charge2</servlet-name>
+    <servlet-class>com.neu.service.charge.Charge2</servlet-class>
+  </servlet>
+	<servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Charge3</servlet-name>
+    <servlet-class>com.neu.service.charge.Charge3</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Charge3_Select</servlet-name>
+    <servlet-class>com.neu.service.charge.Charge3_Select</servlet-class>
+  </servlet>
+
+
+
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Office1</servlet-name>
+    <servlet-class>com.neu.service.office.Office1</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>office1_Insert</servlet-name>
+    <servlet-class>com.neu.service.office.office1_Insert</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>office1_Update</servlet-name>
+    <servlet-class>com.neu.service.office.office1_Update</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Office2</servlet-name>
+    <servlet-class>com.neu.service.office.Office2</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>office2_Delete</servlet-name>
+    <servlet-class>com.neu.service.office.office2_Delete</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Office2_Insert</servlet-name>
+    <servlet-class>com.neu.service.office.Office2_Insert</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>office2_Update</servlet-name>
+    <servlet-class>com.neu.service.office.office2_Update</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Office3</servlet-name>
+    <servlet-class>com.neu.service.office.Office3</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>office3_Delete</servlet-name>
+    <servlet-class>com.neu.service.office.office3_Delete</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Office5</servlet-name>
+    <servlet-class>com.neu.service.office.Office5</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>office5_Update</servlet-name>
+    <servlet-class>com.neu.service.office.office5_Update</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>office5_Insert</servlet-name>
+    <servlet-class>com.neu.service.office.office5_Insert</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>office5_Delete</servlet-name>
+    <servlet-class>com.neu.service.office.office5_Delete</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>office4_Insert</servlet-name>
+    <servlet-class>com.neu.service.office.office4_Insert</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>office4_Delete</servlet-name>
+    <servlet-class>com.neu.service.office.office4_Delete</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>office4_Update</servlet-name>
+    <servlet-class>com.neu.service.office.office4_Update</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Office4</servlet-name>
+    <servlet-class>com.neu.service.office.Office4</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Office6</servlet-name>
+    <servlet-class>com.neu.service.office.Office6</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>office6_Insert</servlet-name>
+    <servlet-class>com.neu.service.office.office6_Insert</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>office6_Update</servlet-name>
+    <servlet-class>com.neu.service.office.office6_Update</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>office6_Delete</servlet-name>
+    <servlet-class>com.neu.service.office.office6_Delete</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Owner1</servlet-name>
+    <servlet-class>com.neu.service.owner.Owner1</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Owner1_Delete</servlet-name>
+    <servlet-class>com.neu.service.owner.Owner1_Delete</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Owner1_Insert</servlet-name>
+    <servlet-class>com.neu.service.owner.Owner1_Insert</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Owner1_Update</servlet-name>
+    <servlet-class>com.neu.service.owner.Owner1_Update</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Owner2</servlet-name>
+    <servlet-class>com.neu.service.owner.Owner2</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Owner2_Insert</servlet-name>
+    <servlet-class>com.neu.service.owner.Owner2_Insert</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Owner2_Update</servlet-name>
+    <servlet-class>com.neu.service.owner.Owner2_Update</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Owner2_Delete</servlet-name>
+    <servlet-class>com.neu.service.owner.Owner2_Delete</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Owner4_Insert</servlet-name>
+    <servlet-class>com.neu.service.owner.Owner4_Insert</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Owner4_Delete</servlet-name>
+    <servlet-class>com.neu.service.owner.Owner4_Delete</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Owner4_Update</servlet-name>
+    <servlet-class>com.neu.service.owner.Owner4_Update</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Owner4</servlet-name>
+    <servlet-class>com.neu.service.owner.Owner4</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Owner3_Delete</servlet-name>
+    <servlet-class>com.neu.service.owner.Owner3_Delete</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Owner3_Insert</servlet-name>
+    <servlet-class>com.neu.service.owner.Owner3_Insert</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Owner3</servlet-name>
+    <servlet-class>com.neu.service.owner.Owner3</servlet-class>
+  </servlet>
+  	
+  	 <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>office1_Select</servlet-name>
+    <servlet-class>com.neu.service.office.office1_Select</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>office1_Delete</servlet-name>
+    <servlet-class>com.neu.service.office.office1_Delete</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>office2_Select</servlet-name>
+    <servlet-class>com.neu.service.office.office2_Select</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>office3_Select</servlet-name>
+    <servlet-class>com.neu.service.office.office3_Select</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>office4_Select</servlet-name>
+    <servlet-class>com.neu.service.office.office4_Select</servlet-class>
+  </servlet>
+
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>office5_Select</servlet-name>
+    <servlet-class>com.neu.service.office.office5_Select</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>office6_Select</servlet-name>
+    <servlet-class>com.neu.service.office.office6_Select</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Owner1_Select</servlet-name>
+    <servlet-class>com.neu.service.owner.Owner1_Select</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Owner2_Select</servlet-name>
+    <servlet-class>com.neu.service.owner.Owner2_Select</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Owner4_Select</servlet-name>
+    <servlet-class>com.neu.service.owner.Owner4_Select</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Owner3_Select</servlet-name>
+    <servlet-class>com.neu.service.owner.Owner3_Select</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Owner5_Select</servlet-name>
+    <servlet-class>com.neu.service.owner.Owner5_Select</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Owner6_Select</servlet-name>
+    <servlet-class>com.neu.service.owner.Owner6_Select</servlet-class>
+  </servlet>
+  
+   <servlet>
+    <servlet-name>Clean1</servlet-name>
+    <servlet-class>com.neu.service.clean.Clean1</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>Clean1_Delete</servlet-name>
+    <servlet-class>com.neu.service.clean.Clean1_Delete</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>Clean1_Insert</servlet-name>
+    <servlet-class>com.neu.service.clean.Clean1_Insert</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>Clean1_Select</servlet-name>
+    <servlet-class>com.neu.service.clean.Clean1_Select</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>Clean1_Update</servlet-name>
+    <servlet-class>com.neu.service.clean.Clean1_Update</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>Clean2</servlet-name>
+    <servlet-class>com.neu.service.clean.Clean2</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>Clean2_Delete</servlet-name>
+    <servlet-class>com.neu.service.clean.Clean2_Delete</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>Clean2_Insert</servlet-name>
+    <servlet-class>com.neu.service.clean.Clean2_Insert</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>Clean2_Select</servlet-name>
+    <servlet-class>com.neu.service.clean.Clean2_Select</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>Clean2_Update</servlet-name>
+    <servlet-class>com.neu.service.clean.Clean2_Update</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>Clean3</servlet-name>
+    <servlet-class>com.neu.service.clean.Clean3</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>Clean3_Delete</servlet-name>
+    <servlet-class>com.neu.service.clean.Clean3_Delete</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>Clean3_Insert</servlet-name>
+    <servlet-class>com.neu.service.clean.Clean3_Insert</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>Clean3_Select</servlet-name>
+    <servlet-class>com.neu.service.clean.Clean3_Select</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>Clean3_Update</servlet-name>
+    <servlet-class>com.neu.service.clean.Clean3_Update</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>Security1</servlet-name>
+    <servlet-class>com.neu.service.security.Security1</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>Security1_Delete</servlet-name>
+    <servlet-class>com.neu.service.security.Security1_Delete</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>Security1_Insert</servlet-name>
+    <servlet-class>com.neu.service.security.Security1_Insert</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>Security1_Select</servlet-name>
+    <servlet-class>com.neu.service.security.Security1_Select</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>Security1_Update</servlet-name>
+    <servlet-class>com.neu.service.security.Security1_Update</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>Security2</servlet-name>
+    <servlet-class>com.neu.service.security.Security2</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>Security2_Delete</servlet-name>
+    <servlet-class>com.neu.service.security.Security2_Delete</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>Security2_Insert</servlet-name>
+    <servlet-class>com.neu.service.security.Security2_Insert</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>Security2_Select</servlet-name>
+    <servlet-class>com.neu.service.security.Security2_Select</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>Security2_Update</servlet-name>
+    <servlet-class>com.neu.service.security.Security2_Update</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>Security3</servlet-name>
+    <servlet-class>com.neu.service.security.Security3</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>Security3_Delete</servlet-name>
+    <servlet-class>com.neu.service.security.Security3_Delete</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>Security3_Insert</servlet-name>
+    <servlet-class>com.neu.service.security.Security3_Insert</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>Security3_Select</servlet-name>
+    <servlet-class>com.neu.service.security.Security3_Select</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>Security3_Update</servlet-name>
+    <servlet-class>com.neu.service.security.Security3_Update</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Parking1</servlet-name>
+    <servlet-class>com.neu.service.parking.Parking1</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Parking2</servlet-name>
+    <servlet-class>com.neu.service.parking.Parking2</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Parking3</servlet-name>
+    <servlet-class>com.neu.service.parking.Parking3</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Parking3_Delete</servlet-name>
+    <servlet-class>com.neu.service.parking.Parking3_Delete</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Parking3_Update</servlet-name>
+    <servlet-class>com.neu.service.parking.Parking3_Update</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Parking3_Insert</servlet-name>
+    <servlet-class>com.neu.service.parking.Parking3_Insert</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Parking3_Select</servlet-name>
+    <servlet-class>com.neu.service.parking.Parking3_Select</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Parking1_Update</servlet-name>
+    <servlet-class>com.neu.service.parking.Parking1_Update</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Parking1_Insert</servlet-name>
+    <servlet-class>com.neu.service.parking.Parking1_Insert</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Parking1_Delete</servlet-name>
+    <servlet-class>com.neu.service.parking.Parking1_Delete</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Parking1_Select</servlet-name>
+    <servlet-class>com.neu.service.parking.Parking1_Select</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Parking2_Select</servlet-name>
+    <servlet-class>com.neu.service.parking.Parking2_Select</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Parking2_Insert</servlet-name>
+    <servlet-class>com.neu.service.parking.Parking2_Insert</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Parking2_Delete</servlet-name>
+    <servlet-class>com.neu.service.parking.Parking2_Delete</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Parking2_Update</servlet-name>
+    <servlet-class>com.neu.service.parking.Parking2_Update</servlet-class>
+  </servlet>
+  
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>System1</servlet-name>
+    <servlet-class>com.neu.service.system.System1</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>System1_Select</servlet-name>
+    <servlet-class>com.neu.service.system.System1_Select</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>System1_Delete</servlet-name>
+    <servlet-class>com.neu.service.system.System1_Delete</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>System1_Insert</servlet-name>
+    <servlet-class>com.neu.service.system.System1_Insert</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>System1_Reduction</servlet-name>
+    <servlet-class>com.neu.service.system.System1_Reduction</servlet-class>
+  </servlet>
+  
+    <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Document1</servlet-name>
+    <servlet-class>com.neu.service.document.Document1</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Document1_Insert</servlet-name>
+    <servlet-class>com.neu.service.document.Document1_Insert</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Document1_Delete</servlet-name>
+    <servlet-class>com.neu.service.document.Document1_Delete</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Document1_Select</servlet-name>
+    <servlet-class>com.neu.service.document.Document1_Select</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Document1_download</servlet-name>
+    <servlet-class>com.neu.service.document.Document1_download</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Document1_Update</servlet-name>
+    <servlet-class>com.neu.service.document.Document1_Update</servlet-class>
+  </servlet>
+    
+
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <servlet-mapping>
+    <servlet-name>Login</servlet-name>
+    <url-pattern>/servlet/Login</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Building1_Select</servlet-name>
+    <url-pattern>/servlet/Building1_Select</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Building1_delete</servlet-name>
+    <url-pattern>/servlet/Building1_Delete</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Building1</servlet-name>
+    <url-pattern>/servlet/Building1</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Building1_Update</servlet-name>
+    <url-pattern>/servlet/Building1_Update</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Building1_Insert</servlet-name>
+    <url-pattern>/servlet/Building1_Insert</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Building2</servlet-name>
+    <url-pattern>/servlet/Building2</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Building2_Select</servlet-name>
+    <url-pattern>/servlet/Building2_Select</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Building3</servlet-name>
+    <url-pattern>/servlet/Building3</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Building3_Select</servlet-name>
+    <url-pattern>/servlet/Building3_Select</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Building4</servlet-name>
+    <url-pattern>/servlet/Building4</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Building4_Select</servlet-name>
+    <url-pattern>/servlet/Building4_Select</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Building5</servlet-name>
+    <url-pattern>/servlet/Building5</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Building5_Select</servlet-name>
+    <url-pattern>/servlet/Building5_Select</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Building2_Update</servlet-name>
+    <url-pattern>/servlet/Building2_Update</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Building2_Delete</servlet-name>
+    <url-pattern>/servlet/Building2_Delete</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Building2_Insert</servlet-name>
+    <url-pattern>/servlet/Building2_Insert</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>selectChange1</servlet-name>
+    <url-pattern>/servlet/selectChange1</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>selectChange2</servlet-name>
+    <url-pattern>/servlet/selectChange2</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>selectChange3</servlet-name>
+    <url-pattern>/servlet/selectChange3</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>selectChange4</servlet-name>
+    <url-pattern>/servlet/selectChange4</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Building3_Delete</servlet-name>
+    <url-pattern>/servlet/Building3_Delete</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Building3_Insert</servlet-name>
+    <url-pattern>/servlet/Building3_Insert</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Building5_ShowInfo</servlet-name>
+    <url-pattern>/servlet/Building5_ShowInfo</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Charge1</servlet-name>
+    <url-pattern>/servlet/Charge1</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Charge1_Delete</servlet-name>
+    <url-pattern>/servlet/Charge1_Delete</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Charge1_Insert</servlet-name>
+    <url-pattern>/servlet/Charge1_Insert</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Charge1_Select</servlet-name>
+    <url-pattern>/servlet/Charge1_Select</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Charge1_Update</servlet-name>
+    <url-pattern>/servlet/Charge1_Update</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Charge2</servlet-name>
+    <url-pattern>/servlet/Charge2</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Charge3</servlet-name>
+    <url-pattern>/servlet/Charge3</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Charge3_Select</servlet-name>
+    <url-pattern>/servlet/Charge3_Select</url-pattern>
+  </servlet-mapping>
+  
+  
+  <servlet-mapping>
+    <servlet-name>office1_Select</servlet-name>
+    <url-pattern>/servlet/office1_Select</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>office1_Delete</servlet-name>
+    <url-pattern>/servlet/office1_Delete</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>office2_Select</servlet-name>
+    <url-pattern>/servlet/office2_Select</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>office3_Select</servlet-name>
+    <url-pattern>/servlet/office3_Select</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>office4_Select</servlet-name>
+    <url-pattern>/servlet/office4_Select</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>office5_Select</servlet-name>
+    <url-pattern>/servlet/office5_Select</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>office6_Select</servlet-name>
+    <url-pattern>/servlet/office6_Select</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Owner1_Select</servlet-name>
+    <url-pattern>/servlet/Owner1_Select</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Owner2_Select</servlet-name>
+    <url-pattern>/servlet/Owner2_Select</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Owner4_Select</servlet-name>
+    <url-pattern>/servlet/Owner4_Select</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Owner3_Select</servlet-name>
+    <url-pattern>/servlet/Owner3_Select</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Owner5_Select</servlet-name>
+    <url-pattern>/servlet/Owner5_Select</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Owner6_Select</servlet-name>
+    <url-pattern>/servlet/Owner6_Select</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Office1</servlet-name>
+    <url-pattern>/servlet/Office1</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>office1_Insert</servlet-name>
+    <url-pattern>/servlet/office1_Insert</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>office1_Update</servlet-name>
+    <url-pattern>/servlet/office1_Update</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Office2</servlet-name>
+    <url-pattern>/servlet/Office2</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>office2_Delete</servlet-name>
+    <url-pattern>/servlet/office2_Delete</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Office2_Insert</servlet-name>
+    <url-pattern>/servlet/Office2_Insert</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>office2_Update</servlet-name>
+    <url-pattern>/servlet/office2_Update</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Office3</servlet-name>
+    <url-pattern>/servlet/Office3</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>office3_Delete</servlet-name>
+    <url-pattern>/servlet/office3_Delete</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Office5</servlet-name>
+    <url-pattern>/servlet/Office5</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>office5_Update</servlet-name>
+    <url-pattern>/servlet/office5_Update</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>office5_Insert</servlet-name>
+    <url-pattern>/servlet/office5_Insert</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>office5_Delete</servlet-name>
+    <url-pattern>/servlet/office5_Delete</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>office4_Insert</servlet-name>
+    <url-pattern>/servlet/office4_Insert</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>office4_Delete</servlet-name>
+    <url-pattern>/servlet/office4_Delete</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>office4_Update</servlet-name>
+    <url-pattern>/servlet/office4_Update</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Office4</servlet-name>
+    <url-pattern>/servlet/Office4</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Office6</servlet-name>
+    <url-pattern>/servlet/Office6</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>office6_Insert</servlet-name>
+    <url-pattern>/servlet/office6_Insert</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>office6_Update</servlet-name>
+    <url-pattern>/servlet/office6_Update</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>office6_Delete</servlet-name>
+    <url-pattern>/servlet/office6_Delete</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Owner1</servlet-name>
+    <url-pattern>/servlet/Owner1</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Owner1_Delete</servlet-name>
+    <url-pattern>/servlet/Owner1_Delete</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Owner1_Insert</servlet-name>
+    <url-pattern>/servlet/Owner1_Insert</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Owner1_Update</servlet-name>
+    <url-pattern>/servlet/Owner1_Update</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Owner2</servlet-name>
+    <url-pattern>/servlet/Owner2</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Owner2_Insert</servlet-name>
+    <url-pattern>/servlet/Owner2_Insert</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Owner2_Update</servlet-name>
+    <url-pattern>/servlet/Owner2_Update</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Owner2_Delete</servlet-name>
+    <url-pattern>/servlet/Owner2_Delete</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Owner4_Insert</servlet-name>
+    <url-pattern>/servlet/Owner4_Insert</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Owner4_Delete</servlet-name>
+    <url-pattern>/servlet/Owner4_Delete</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Owner4_Update</servlet-name>
+    <url-pattern>/servlet/Owner4_Update</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Owner4</servlet-name>
+    <url-pattern>/servlet/Owner4</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Owner3_Delete</servlet-name>
+    <url-pattern>/servlet/Owner3_Delete</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Owner3_Insert</servlet-name>
+    <url-pattern>/servlet/Owner3_Insert</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Owner3</servlet-name>
+    <url-pattern>/servlet/Owner3</url-pattern>
+  </servlet-mapping>
+  
+  <servlet-mapping>
+    <servlet-name>Clean1</servlet-name>
+    <url-pattern>/servlet/Clean1</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Clean1_Delete</servlet-name>
+    <url-pattern>/servlet/Clean1_Delete</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Clean1_Insert</servlet-name>
+    <url-pattern>/servlet/Clean1_Insert</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Clean1_Select</servlet-name>
+    <url-pattern>/servlet/Clean1_Select</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Clean1_Update</servlet-name>
+    <url-pattern>/servlet/Clean1_Update</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Clean2</servlet-name>
+    <url-pattern>/servlet/Clean2</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Clean2_Delete</servlet-name>
+    <url-pattern>/servlet/Clean2_Delete</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Clean2_Insert</servlet-name>
+    <url-pattern>/servlet/Clean2_Insert</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Clean2_Select</servlet-name>
+    <url-pattern>/servlet/Clean2_Select</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Clean2_Update</servlet-name>
+    <url-pattern>/servlet/Clean2_Update</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Clean3</servlet-name>
+    <url-pattern>/servlet/Clean3</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Clean3_Delete</servlet-name>
+    <url-pattern>/servlet/Clean3_Delete</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Clean3_Insert</servlet-name>
+    <url-pattern>/servlet/Clean3_Insert</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Clean3_Select</servlet-name>
+    <url-pattern>/servlet/Clean3_Select</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Clean3_Update</servlet-name>
+    <url-pattern>/servlet/Clean3_Update</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Security1</servlet-name>
+    <url-pattern>/servlet/Security1</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Security1_Delete</servlet-name>
+    <url-pattern>/servlet/Security1_Delete</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Security1_Insert</servlet-name>
+    <url-pattern>/servlet/Security1_Insert</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Security1_Select</servlet-name>
+    <url-pattern>/servlet/Security1_Select</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Security1_Update</servlet-name>
+    <url-pattern>/servlet/Security1_Update</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Security2</servlet-name>
+    <url-pattern>/servlet/Security2</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Security2_Delete</servlet-name>
+    <url-pattern>/servlet/Security2_Delete</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Security2_Insert</servlet-name>
+    <url-pattern>/servlet/Security2_Insert</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Security2_Select</servlet-name>
+    <url-pattern>/servlet/Security2_Select</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Security2_Update</servlet-name>
+    <url-pattern>/servlet/Security2_Update</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Security3</servlet-name>
+    <url-pattern>/servlet/Security3</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Security3_Delete</servlet-name>
+    <url-pattern>/servlet/Security3_Delete</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Security3_Insert</servlet-name>
+    <url-pattern>/servlet/Security3_Insert</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Security3_Select</servlet-name>
+    <url-pattern>/servlet/Security3_Select</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Security3_Update</servlet-name>
+    <url-pattern>/servlet/Security3_Update</url-pattern>
+   </servlet-mapping>
+  
+  <servlet-mapping>
+    <servlet-name>Parking1</servlet-name>
+    <url-pattern>/servlet/Parking1</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Parking2</servlet-name>
+    <url-pattern>/servlet/Parking2</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Parking3</servlet-name>
+    <url-pattern>/servlet/Parking3</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Parking3_Delete</servlet-name>
+    <url-pattern>/servlet/Parking3_Delete</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Parking3_Update</servlet-name>
+    <url-pattern>/servlet/Parking3_Update</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Parking3_Insert</servlet-name>
+    <url-pattern>/servlet/Parking3_Insert</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Parking3_Select</servlet-name>
+    <url-pattern>/servlet/Parking3_Select</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Parking1_Update</servlet-name>
+    <url-pattern>/servlet/Parking1_Update</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Parking1_Insert</servlet-name>
+    <url-pattern>/servlet/Parking1_Insert</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Parking1_Delete</servlet-name>
+    <url-pattern>/servlet/Parking1_Delete</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Parking1_Select</servlet-name>
+    <url-pattern>/servlet/Parking1_Select</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Parking2_Select</servlet-name>
+    <url-pattern>/servlet/Parking2_Select</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Parking2_Insert</servlet-name>
+    <url-pattern>/servlet/Parking2_Insert</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Parking2_Delete</servlet-name>
+    <url-pattern>/servlet/Parking2_Delete</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Parking2_Update</servlet-name>
+    <url-pattern>/servlet/Parking2_Update</url-pattern>
+  </servlet-mapping>
+ 
+   <servlet-mapping>
+    <servlet-name>System1</servlet-name>
+    <url-pattern>/servlet/System1</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>System1_Select</servlet-name>
+    <url-pattern>/servlet/System1_Select</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>System1_Delete</servlet-name>
+    <url-pattern>/servlet/System1_Delete</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>System1_Insert</servlet-name>
+    <url-pattern>/servlet/System1_Insert</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>System1_Reduction</servlet-name>
+    <url-pattern>/servlet/System1_Reduction</url-pattern>
+  </servlet-mapping>
+   
+  <servlet-mapping>
+    <servlet-name>Document1</servlet-name>
+    <url-pattern>/servlet/Document1</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Document1_Insert</servlet-name>
+    <url-pattern>/servlet/Document1_Insert</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Document1_Delete</servlet-name>
+    <url-pattern>/servlet/Document1_Delete</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Document1_Select</servlet-name>
+    <url-pattern>/servlet/Document1_Select</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Document1_download</servlet-name>
+    <url-pattern>/servlet/Document1_download</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Document1_Update</servlet-name>
+    <url-pattern>/servlet/Document1_Update</url-pattern>
+  </servlet-mapping>
+ 
+  
+  
+   <welcome-file-list>
+    <welcome-file>login.jsp</welcome-file>
+  </welcome-file-list>
+  
+  
+  
+  
+</web-app>
+
+
+
